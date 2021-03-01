@@ -14,7 +14,7 @@ for (var i = 0; i < listamail.length; i++) {
 }
 //faccio passare
 if ( signal == 1 ) {
-  document.getElementById("responso").innerHTML = "Sei nella Lista Brdi"
+  document.getElementById("responso").innerHTML = "Sei nella Lista, Brodi";
 } else {
-  document.getElementById("responso").innerHTML = "Sei un Perdente non puoi entrere qui LMAO"
+  document.getElementById("responso").innerHTML = "Sei un Perdente non puoi entrere qui LMAO";
 }
