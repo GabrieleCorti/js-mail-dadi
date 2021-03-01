@@ -10,6 +10,8 @@ var nPc = Math.floor(Math.random() * (max - min + 1) + min);
 document.getElementById('nUtente').innerHTML = nUtente;
 document.getElementById('nPc').innerHTML = nPc;
 
+//se nutente > npc vince utente
+//se nutente < npc perde utente 
 if (nUtente > nPc ) {
 
   document.getElementById('risultato').innerHTML = "Hai vinto";
