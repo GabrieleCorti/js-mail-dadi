@@ -7,9 +7,6 @@ var signal;
 for (var i = 0; i < listamail.length; i++) {
   if (listamail[i] == mailutente) {
     signal = 1;
-    break;
-  } else {
-    signal = 0;
   }
 }
 //faccio passare
